@@ -2,5 +2,5 @@
 
 # Normal build steps
 . build/envsetup.sh
-lunch rom_lavender-userdebug
+lunch spark_whyred-userdebug
 make bacon -j$(nproc --all)
